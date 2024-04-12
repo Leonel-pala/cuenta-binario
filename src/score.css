@@ -1,0 +1,59 @@
+#score {
+  position: absolute;
+  top: 150px;
+  left: 30px;
+  background: #1a1a1a;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-bottom: 20px;
+}
+#conteinerDatoOld {
+  max-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  overflow-y: visible;
+  overflow-x: hidden;
+  border-collapse: collapse;
+  width: 90%;
+  margin: auto;
+}
+tr {
+  all: unset;
+  display: grid;
+  grid-template-columns: 50px 1fr 30px 30px 40px;
+  grid-template-rows: 30px;
+}
+th,
+td {
+  all: unset;
+  border: 1px solid #ddd;
+  position: relative;
+}
+
+.nombre {
+  text-align: left;
+  padding-left: 10px;
+}
+
+img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.incorrect {
+  background: rgb(255, 0, 0);
+}
+.correct {
+  background: rgb(0, 200, 0);
+}
+
+@media only screen and (min-width: 320px) and (max-width: 720px) {
+  #score {
+    position: relative;
+    margin: unset;
+    top: unset;
+    left: unset;
+  }
+}
