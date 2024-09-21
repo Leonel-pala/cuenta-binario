@@ -1,2 +1,2 @@
-const url = "https://serverbinario.onrender.com";
+const url = 'https://server-cuenta-binario.onrender.com';
 export default url;
